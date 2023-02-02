@@ -1,0 +1,223 @@
+body {
+  background: linear-gradient(to bottom, rgb(189, 240, 187), rgba(239, 240, 187, 0.2));
+ font-size: 1em; text-align: justify; font-family: "Roboto", sans-serif;
+
+}
+/* a is opacity, last value after rgb is percent 0-1.0 of transparancy */
+
+#forestpic {
+  height: 400px;
+  width: 70%;
+  border: 10px solid black;
+  padding: 0px;
+  /* padding-top:20px; */
+  /* padding:100px 40px 5px 0; */
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 10px
+   /* float: right; */
+
+}
+
+#service-image{
+
+  background: url("../img/island.png") no-repeat;
+  background-size: cover;
+  border: 10px solid black;
+  height: 400px;
+  display: block;
+  width: 70%;
+  margin-top: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 10px
+
+}
+
+#submit-button {
+  margin:20px 10px;
+  padding: 10px 15px;
+  border: none;
+  text-decoration: none;
+  font-family: "Lato", sans-serif;
+  font-weight: 600;
+  font-size: 20px;
+  color: white;
+  background: rgb(89, 150, 255);
+  transform: scale(1.1);
+  -webkit-transition: background 1s ease;
+  -moz-transition: background 1s ease;
+  -webkit-transform: translate(150px, 2px);
+  -moz-transform: translate(150px, 2px);
+  -o-transform: translate(150px, 2px);
+
+}
+
+#why-learn {
+  /* animation-name: translate-element;
+  animation-duration: 4s;
+  animation-timing-function: linear;
+  animation-delay: 0s;
+  animation-iteration-count: 2;
+  animation-direction: alternate;  */
+
+  -webkit-animation: translate-element 4s linear 0s 2 alternate;
+  -moz-animation: translate-element 4s linear 0s 2 alternate;
+  -ms-animation: translate-element 4s linear 0s 2 alternate;
+  -o-animation: translate-element 4s linear 0s 2 alternate;
+
+}
+
+@keyframes translate-element {
+  0% {background: red; transform: translate(0px, 0px);}
+  50% {background: blue; transform: translate(2px, 2px);}
+  100% {background: black; transform: translate(5px, 5px);}
+}
+
+#submit-button:hover {
+  background: rgb(147, 187, 255);
+}
+
+.container {
+  background-color: rgba(189, 240, 187, 0.01);
+  margin-top: 10px;
+  height:250px;
+  display: flex;
+  flex-direction: row;
+   /* flex-wrap: wrap; */
+  justify-content: space-around;
+  align-items: flex-start;
+
+
+}
+
+.container-item {
+  background: red;
+  color: white;
+  font-size: 15px;
+  text-align: center;
+
+  width: 70px;
+  line-height: 50px;
+  margin: 10px;
+
+}
+
+.grid-container {
+  background-color: rgba(189, 240, 187, 0.01);
+  margin: 10px;
+  margin-bottom: 20px;
+  height:250px;
+  display: grid;
+  grid-template-columns: auto auto auto;
+  /* grid-column-gap: 150px; */
+  grid-template-rows: auto auto;
+  /* grid-row-gap: 20px; */
+  /* grid-gap: 20px 150px; */
+  /* justify-content: space-evenly; */
+  /* align-content: space-evenly ; */
+}
+
+.grid-item {
+  text-align: center;
+  color: white;
+  font-size: 20px;
+  width: 70px;
+  line-height: 40px;
+  margin:10px;
+}
+
+/* #gradient{
+  height: 400px;
+  width: 70%;
+  background: linear-gradient(to bottom right, red, rgba(31, 51, 224, 0));
+  background-size: cover;
+}
+#gradient2 {
+height: 400px;
+width: 70%;
+background: linear-gradient(146deg, blue, rgba(31, 51, 224, 0));
+background-size: cover;
+}
+#gradient3 {
+height: 400px;
+width: 70%;
+background: radial-gradient(circle, red 20%, blue 40%, purple 40%);
+ } */
+
+
+
+/* body {background: url("img/forest.png")} */
+
+/* body {background: url("https://uconn-today-universityofconn.netdna-ssl.com/wp-content/uploads/2019/09/GettyImages-1003869858-1024x681.jpg")} */
+
+h2[class=subtitle]:hover {
+  color: steelblue;
+}
+
+#specificity {color: purple}
+
+#title {color: #c9421c; text-align: center;
+  font-family: "Lexend", sans-serif;
+
+}
+#Red {color: red;}
+
+.table {
+  display: inline-block;
+}
+
+.italics {
+  font-style: italic;
+}
+
+.head-text {
+  text-align: center;
+}
+
+.googlelink {
+  text-decoration: underline;
+  float: right;
+
+}
+
+.googlelink:link {color: blue;}
+
+.googlelink:visited {color: red;}
+
+/* .para-text {
+  text-transform: capitalize;
+ } */
+
+
+
+.subtitle {color: red;
+  font-family: "Lexend", sans-serif;
+
+}
+
+/* li:first-child {color:orange;} */
+
+/* li:last-child {color:blue;} */
+
+ /* li:nth-child(3) {color:purple;} */
+
+ /* li:only-child {color: darkolivegreen}  */
+
+/* h2 + a {
+  color:red;
+} */
+
+input ~ button {color:purple;}
+
+    ol > li {
+  color: blue;
+  }
+
+  /* ul li {
+  color: green;
+  }  */
+
+/* img[src^="img/"] {border: 10px solid black;} */
+/* ^= starts with this address, $=ends with address, *= anywhere in address */
